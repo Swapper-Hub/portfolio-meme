@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "mak-bold";
+  src: url(../fonts/MAK-bold.otf);
+}
+@font-face {
+  font-family: "mak";
+  src: url(../fonts/MAK.otf);
+}
+body {
+  background-color: #eafffb;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: max-content 120px;
+  height: 72px;
+  padding: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: solid 1px black;
+}
+.body2 {
+  display: flex;
+}
+.menu {
+  width: 20%;
+  max-height: 100%;
+  background-color: aquamarine;
+  font-family: mak;
+  font-size: 32px;
+  text-align: center;
+  height: 720px;
+}
+
+.celda {
+  padding-left: 12px;
+  padding-top: 8px;
+  justify-content: center;
+}
+
+.projects-container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  max-width: 80%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2.5%;
+  }
+
+.project-img {
+  width: 25%;
+  margin-bottom: 8px;
+}
+
+.project-info {
+  width: 320px;
+}
+
+.project h3 {
+  font-family: mak-bold;
+  font-size: 30px;
+  line-height: 20px;
+  margin-bottom: 22px;
+}
+
+.project p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.project a {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "mak-bold";
+    src: url(../fonts/MAK-bold.otf);
+}
+@font-face {
+    font-family: "mak";
+    src: url(../fonts/MAK.otf);
+}
+body{
+    background-color: #EAFFFB;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: max-content 120px;
+    height: 72px;
+    padding: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: solid 1px black;
+}
+
+.body2 {
+    display: flex;    
+}
+  .menu {
+    width: 20%;
+    max-height:fit-content;
+    background-color: aquamarine;
+    font-family: mak;
+    font-size: 32px;
+    text-align: center;
+    height: 720px;
+  }
+  
+  .celda {
+    padding-left: 12px;
+    padding-top: 8px;
+    justify-content: center;
+  }
+
+  .body3{
+    width: 60%;
+    padding-left: 2.5%;
+    padding-top: 2.5%;  
+  }
+
+  .carusa{
+      justify-content: center;
+  }
+
+  a{
+      text-decoration: none;
+  }
